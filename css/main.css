@@ -1,0 +1,122 @@
+body{
+   background-image:url("../images/castle.jpg");
+   background-color: tan;
+}
+
+
+h1{
+  color:red;
+}
+
+h5{
+  margin-left: 4px;
+  border:4px double  black;
+  padding: 2px;
+  background-color: black;
+  color:gold;
+  width: 150px;
+}
+
+label{
+  transform: rotate(90deg);
+}
+
+section.main{
+  background-color: red;
+}
+
+div{
+  border: 3px solid black;
+  border-radius: 25px;
+  margin-top: 4px;
+  padding-left: 10px;
+}
+
+p{
+  display:inline-flex;
+  margin-left: 4px;
+  border:4px double  black;
+  padding: 2px;
+  background-color: paleturquoise;
+}
+
+.Rogue{
+  background-image: url("../images/rogue.jpg");
+}
+
+.Barbarian{
+  background-image: url("../images/barbarian.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid red;
+}
+
+.Paladin{
+  background-image: url("../images/paladin.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid gold;
+}
+
+.Wizard{
+  background-image: url("../images/wizard.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid blue;
+}
+
+.Sorcerer{
+  background-image: url("../images/sorcerer.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid purple;
+}
+
+.Druid{
+  background-image: url("../images/druid.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid green;
+}
+
+.Fighter{
+  background-image: url("../images/fighter.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid silver;
+}
+
+.Warlock{
+  background-image: url("../images/warlock.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid rebeccapurple;
+}
+
+.Ranger{
+  background-image: url("../images/ranger.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid orange;
+}
+
+.Bard{
+  background-image: url("../images/bard.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid pink;
+}
+
+.Cleric{
+  background-image: url("../images/cleric.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid white;
+}
+
+.Monk{
+  background-image: url("../images/monk.png");
+  background-repeat: no-repeat;
+  background-color: white;
+  border: 3px solid lightsalmon;
+}
