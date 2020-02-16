@@ -53,6 +53,17 @@ document.addEventListener('DOMContentLoaded', () => {
     }
   }
 
+  const handleDeleteAll=function(event){
+    event.preventDefault();
+    const container=document.querySelector('div')
+    console.log(container);
+    container.innerHTML ='';
+  }
+
+
+  const deleteSubmit=document.querySelector('#delete-all')
+  deleteSubmit.addEventListener('click',handleDeleteAll)
+
 
   form.addEventListener('submit', handleFormSubmit) //trigger and reaction to trigger?
 

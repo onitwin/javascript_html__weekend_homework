@@ -1,6 +1,9 @@
 body{
    background-image:url("../images/castle.jpg");
    background-color: tan;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 
 
@@ -42,6 +45,8 @@ p{
 
 .Rogue{
   background-image: url("../images/rogue.jpg");
+  background-repeat: no-repeat;
+  background-color: white;
 }
 
 .Barbarian{
