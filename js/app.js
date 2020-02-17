@@ -55,7 +55,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   const handleDeleteAll=function(event){
     event.preventDefault();
-    const container=document.querySelector('div')
+    const container=document.getElementById('article')
     console.log(container);
     container.innerHTML ='';
   }
